@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container">
+        <div class="container d-flex align-items-center">
             <a class="navbar-brand" href="{{ route('home') }}"><img class="logo" src="{{ asset('img/token_logo.png') }}"
                     alt=""></a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"

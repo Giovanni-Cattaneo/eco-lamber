@@ -20,6 +20,7 @@
             >.jumbotron {
                 height: 700px;
                 background-image: url('img/jumbotron_bg.jpg');
+                background-size: cover;
             }
         }
     </style>
