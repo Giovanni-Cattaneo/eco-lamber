@@ -16,6 +16,11 @@
     <style>
         main {
             background-color: #c9e3ac;
+
+            >.jumbotron {
+                height: 700px;
+                background-image: url('img/jumbotron_bg.jpg');
+            }
         }
     </style>
 

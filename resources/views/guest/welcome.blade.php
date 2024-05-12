@@ -1,11 +1,11 @@
 @extends('layout.app')
 
 @section('main-content')
-    <div class="container py-5">
-        <div class="p-5 mb-4 bg-light rounded-3">
+    <div class="pt-5 jumbotron">
+        <div class="p-5 mb-4 bg-transparent rounded-3">
             <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">Progetto Eco-Lamber</h1>
-                <p class="col-md-8 fs-4">
+                <h1 class="display-5 fw-bold text-light">Progetto Eco-Lamber</h1>
+                <p class="col-md-8 fs-4 text-light">
                     Benvenuto sul nostro sito, cerca informazioni in merito al progetto di solidarietà europea Eco-Lamber,
                     una serie di incontri e di lavori pratici per la sensibilizzazione ecologica sul territorio di carate
                     brianza e frazioni che culminerà con il nostro Eco-Festival del 22 e 23 giugno, non mancate
@@ -15,6 +15,9 @@
                     </button></a>
             </div>
         </div>
+    </div>
+
+    <div class="container py-5">
 
         <div class="row g-3">
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
