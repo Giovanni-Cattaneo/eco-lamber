@@ -23,6 +23,9 @@
                     <li class="nav-item">
                         <a class="nav-link " href="{{ route('about_us') }}">About Us</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="{{ route('about_us') }}">Corpo Europeo di Solidarietà</a>
+                    </li>
                 </ul>
             </div>
         </div>

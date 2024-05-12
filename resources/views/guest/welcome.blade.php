@@ -23,10 +23,12 @@
             @forelse($events as $key => $event)
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="card shadow-sm">
-                        <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
+                        <a href="{{ route('single', ['id' => $key]) }}"><img class="card-img-top"
+                                src="https://picsum.photos/200" alt="Title" /></a>
                         <div class="card-body">
                             <h4 class="card-title">{{ $event->name }}</h4>
-                            <p class="card-text">Ecco la descrizione del tuo evento clicca pure</p>
+                            <p class="card-text">Giorno: {{ $event->date }}</p>
+                            <p class="card-text">Orari: {{ $event->hour }}</p>
                         </div>
                     </div>
 
