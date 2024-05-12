@@ -1,7 +1,3 @@
-<style>
-
-</style>
-
 <header>
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
