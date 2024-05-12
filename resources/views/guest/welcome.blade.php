@@ -21,7 +21,7 @@
 
         <div class="row g-3">
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
+                <div class="card shadow">
                     <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Nome Evento</h4>
@@ -31,7 +31,7 @@
 
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
+                <div class="card shadow">
                     <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Nome Evento</h4>
@@ -41,7 +41,7 @@
 
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
+                <div class="card shadow">
                     <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Nome Evento</h4>
@@ -51,7 +51,7 @@
 
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
+                <div class="card shadow">
                     <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Nome Evento</h4>
@@ -61,7 +61,7 @@
 
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
+                <div class="card shadow">
                     <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Nome Evento</h4>
@@ -71,7 +71,7 @@
 
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
+                <div class="card shadow">
                     <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Nome Evento</h4>
@@ -81,7 +81,7 @@
 
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
+                <div class="card shadow">
                     <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Nome Evento</h4>
@@ -91,7 +91,7 @@
 
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
+                <div class="card shadow">
                     <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
                     <div class="card-body">
                         <h4 class="card-title">Nome Evento</h4>
