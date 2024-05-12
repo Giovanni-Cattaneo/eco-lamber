@@ -1,7 +1,5 @@
 <style>
-    .navbar {
-        background-color: #146731;
-    }
+
 </style>
 
 <header>
@@ -16,17 +14,17 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="{{ route('home') }}" aria-current="page">Home
+                        <a class="nav-link " href="{{ route('home') }}" aria-current="page">Home
                             <span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('home') }}">Eventi</a>
+                        <a class="nav-link " href="{{ route('home') }}">Eventi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('contacts') }}">Contatti</a>
+                        <a class="nav-link " href="{{ route('contacts') }}">Contatti</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('about_us') }}">About Us</a>
+                        <a class="nav-link " href="{{ route('about_us') }}">About Us</a>
                     </li>
                 </ul>
                 <form class="d-flex my-2 my-lg-0">
