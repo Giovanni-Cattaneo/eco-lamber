@@ -1,7 +1,8 @@
 <header>
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('home') }}"><img src="eco_lamber_logo.jpeg" alt=""></a>
+            <a class="navbar-brand" href="{{ route('home') }}"><img class="logo" src="{{ asset('img/token_logo.png') }}"
+                    alt=""></a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
