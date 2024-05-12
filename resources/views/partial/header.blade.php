@@ -24,12 +24,6 @@
                         <a class="nav-link " href="{{ route('about_us') }}">About Us</a>
                     </li>
                 </ul>
-                <form class="d-flex my-2 my-lg-0">
-                    <input class="form-control me-sm-2" type="text" placeholder="Search" />
-                    <button class="btn btn-light btn-outline-primary my-2 my-sm-0" type="submit">
-                        Search
-                    </button>
-                </form>
             </div>
         </div>
     </nav>
