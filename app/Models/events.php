@@ -5,7 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class ecolambers extends Model
+class events extends Model
 {
+    protected $table = 'events';
     use HasFactory;
 }

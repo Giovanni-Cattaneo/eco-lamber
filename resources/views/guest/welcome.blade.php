@@ -20,86 +20,21 @@
     <div class="container py-5">
 
         <div class="row g-3">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card shadow-sm">
-                    <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
-                    <div class="card-body">
-                        <h4 class="card-title">Nome Evento</h4>
-                        <p class="card-text">Ecco la descrizione del tuo evento clicca pure</p>
+            @forelse($events as $key => $event)
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow-sm">
+                        <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title">{{ $event->name }}</h4>
+                            <p class="card-text">Ecco la descrizione del tuo evento clicca pure</p>
+                        </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card shadow-sm">
-                    <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
-                    <div class="card-body">
-                        <h4 class="card-title">Nome Evento</h4>
-                        <p class="card-text">Ecco la descrizione del tuo evento clicca pure</p>
-                    </div>
                 </div>
+            @empty
+                <p>scusate ma non ci sono eventi</p>
+            @endforelse
 
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card shadow-sm">
-                    <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
-                    <div class="card-body">
-                        <h4 class="card-title">Nome Evento</h4>
-                        <p class="card-text">Ecco la descrizione del tuo evento clicca pure</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card shadow-sm">
-                    <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
-                    <div class="card-body">
-                        <h4 class="card-title">Nome Evento</h4>
-                        <p class="card-text">Ecco la descrizione del tuo evento clicca pure</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card shadow-sm">
-                    <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
-                    <div class="card-body">
-                        <h4 class="card-title">Nome Evento</h4>
-                        <p class="card-text">Ecco la descrizione del tuo evento clicca pure</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card shadow-sm">
-                    <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
-                    <div class="card-body">
-                        <h4 class="card-title">Nome Evento</h4>
-                        <p class="card-text">Ecco la descrizione del tuo evento clicca pure</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card shadow-sm">
-                    <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
-                    <div class="card-body">
-                        <h4 class="card-title">Nome Evento</h4>
-                        <p class="card-text">Ecco la descrizione del tuo evento clicca pure</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card shadow-sm">
-                    <img class="card-img-top" src="https://picsum.photos/200" alt="Title" />
-                    <div class="card-body">
-                        <h4 class="card-title">Nome Evento</h4>
-                        <p class="card-text">Ecco la descrizione del tuo evento clicca pure</p>
-                    </div>
-                </div>
-
-            </div>
         </div>
     </div>
 @endsection

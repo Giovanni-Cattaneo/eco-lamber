@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Guests;
 
 use App\Http\Controllers\Controller;
-use App\Models\ecolambers;
+use App\Models\events;
 use Illuminate\Http\Request;
 
 class EcoLambersController extends Controller
@@ -13,7 +13,8 @@ class EcoLambersController extends Controller
      */
     public function index()
     {
-        return view('guest.welcome');
+        $events = events::get();
+        return view('guest.welcome', compact('events'));
     }
 
     public function about_us()
@@ -45,7 +46,7 @@ class EcoLambersController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(ecolambers $ecolambers)
+    public function show(events $ecolambers)
     {
         //
     }
@@ -53,7 +54,7 @@ class EcoLambersController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(ecolambers $ecolambers)
+    public function edit(events $ecolambers)
     {
         //
     }
@@ -61,7 +62,7 @@ class EcoLambersController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, ecolambers $ecolambers)
+    public function update(Request $request, events $ecolambers)
     {
         //
     }
@@ -69,7 +70,7 @@ class EcoLambersController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(ecolambers $ecolambers)
+    public function destroy(events $ecolambers)
     {
         //
     }
