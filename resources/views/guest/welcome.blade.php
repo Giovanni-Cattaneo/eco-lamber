@@ -21,6 +21,8 @@
         <h2 class="text-center">
             Ecco Gli eventi del festival
         </h2>
+        <a href=""><input type="radio" name="day_select" id="">Sabato</a>
+        <a href=""><input type="radio" name="day_select" id="">Domenica</a>
         <hr>
         <div class="row g-3">
             @forelse($events as $key => $event)
