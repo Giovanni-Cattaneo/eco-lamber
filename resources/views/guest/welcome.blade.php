@@ -18,7 +18,10 @@
     </div>
 
     <div class="container py-5">
-
+        <h2 class="text-center">
+            Ecco Gli eventi del festival
+        </h2>
+        <hr>
         <div class="row g-3">
             @forelse($events as $key => $event)
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
