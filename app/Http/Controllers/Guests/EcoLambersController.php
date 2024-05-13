@@ -27,6 +27,17 @@ class EcoLambersController extends Controller
         return view('guest.contacts');
     }
 
+    public function get_id($id)
+    {
+        abort_unless($id >= 0 && $id < count(events::get()), 404);
+
+        $events = events::get()[$id];
+
+        // dd($product);
+
+        return view('guest.single', compact('events'));
+    }
+
     /**
      * Show the form for creating a new resource.
      */

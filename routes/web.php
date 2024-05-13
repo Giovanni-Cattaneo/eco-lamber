@@ -21,13 +21,4 @@ Route::get('/about_us', [EcoLambersController::class, 'about_us'])->name('about_
 
 Route::get('/contacts', [EcoLambersController::class, 'contacts'])->name('contacts');
 
-route::get('single/{id}', function ($id) {
-
-    abort_unless($id >= 0 && $id < count(events::get()), 404);
-
-    $events = events::get()[$id];
-
-    // dd($product);
-
-    return view('guest.single', compact('events'));
-})->name('single');
+route::get('single/{id}', [EcoLambersController::class, 'get_id'])->name('single');
