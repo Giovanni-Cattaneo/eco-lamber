@@ -3,6 +3,11 @@
 @section('main-content')
     <div class="container">
         <h1>About Us</h1>
+        <div class="container">
+            <img src="{{ asset('img/egf_conference_bg.jpeg') }}" alt="">
+        </div>
+
+
 
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores fuga quis voluptate unde quae iure
             aspernatur ratione perspiciatis! Accusamus ipsa deleniti accusantium esse recusandae! Similique quas perferendis
